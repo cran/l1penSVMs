@@ -1,0 +1,28 @@
+Package: l1penSVMs
+Title: Regularization Paths of L1-Penalized SVMs
+Version: 0.1.0
+Authors@R: c(
+    person("Hyungwoo", "Kim", email = "khw7682@pknu.ac.kr", role = c("aut", "cre")),
+    person("Minhyoung", "Park", email =  "ghostpmhnc@gmail.com", role = c("aut")),
+    person("Seung Jun", "Shin", email =  "sjshin@korea.ac.kr", role = c("aut"))
+    )
+Description: Computes regularization paths for L1-penalized support vector machine (SVM) models, including 
+  the standard SVM, receiver operating characteristic SVM (ROC-SVM), and fraud detection SVM (FD-SVM). 
+  The package implements efficient path algorithms to obtain solutions over a wide range of regularization parameter values. 
+  It also provides cross-validation for selecting an optimal regularization parameter, along with functions for 
+  prediction, visualization, and summarization of the fitted models. For more details, 
+  see Zhu et al. (2003) <https://proceedings.neurips.cc/paper_files/paper/2003/file/49d4b2faeb4b7b9e745775793141e2b2-Paper.pdf>,
+  Kim et al. (2021) <doi:10.1002/sta4.400>, 
+  Park et al. (2023) <doi:10.1007/s42952-023-00207-6>.
+License: GPL-3
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+Imports: lpSolve, fastDummies, MASS
+NeedsCompilation: no
+Packaged: 2026-10-11 13:21:01 UTC; skhw7
+Author: Hyungwoo Kim [aut, cre],
+  Minhyoung Park [aut],
+  Seung Jun Shin [aut]
+Maintainer: Hyungwoo Kim <khw7682@pknu.ac.kr>
+Repository: CRAN
+Date/Publication: 2026-10-21 16:00:02 UTC
